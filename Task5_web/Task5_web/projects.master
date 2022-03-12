@@ -1,0 +1,261 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="projects.master.cs" Inherits="Task5_web.projects" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderHead" runat="server">
+        <meta charset="utf-8">
+    <title>Projects</title>
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderBody" runat="server">
+    
+    <!-- start hero or header -->
+    <section class="header bg-light header-projects-page">
+        <div class="head-img"></div>
+        <div class="container">
+            <div class="head-text row ">
+                <span class="text-primary s-head">projects</span>
+                <h1 class="t-head">our projects since 1995</h1>
+                <p class="head-desc">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- end hero or header -->
+
+
+
+    <!-- start section projects -->
+    <section class="projects projects-page">
+        <div class="container">
+            <div class="row mb-5">
+                <div class="col-lg-4 col-md-12">
+                    <h2 class="t-head mb-2">SELECTED WORK FROM 2015</h2>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <p class="mb-3 project-text">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                    </p>
+                </div>
+            </div>
+
+
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.aspx">
+                            <img src="images/projects/img1.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project one</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.aspx">
+                            <img src="images/projects/img2.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project two</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.aspx">
+                            <img src="images/projects/img3.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project three</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.aspx">
+                            <img src="images/projects/img_4.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project three</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.aspx">
+                            <img src="images/projects/img_5.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project one</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.aspx">
+                            <img src="images/projects/img_6.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project two</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.aspx">
+                            <img src="images/projects/img4.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project three</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.aspx">
+                            <img src="images/projects/img5.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project one</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.aspx">
+                            <img src="images/projects/img_1.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project one</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.aspx">
+                            <img src="images/projects/img_2.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project two</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.aspx">
+                            <img src="images/projects/img7.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project two</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.aspx">
+                            <img src="images/projects/img_3.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project three</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+    <!-- end projects -->
+
+
+    <!-- start testmonials -->
+    <section class="testmonials bg-light">
+        <div class="container">
+            <div class="head t-center">
+                <span class="text-primary s-head">testmonials</span>
+                <h2 class="t-head mb-5">people say</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="testmonials-content">
+                        <blockquote cite="">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/testmonials/person_1.jpg" alt="">
+                            <div class="tesmonials-text">
+                                <h4>alan crew</h4>
+                                <p>partner at XYZ Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="testmonials-content">
+                        <blockquote cite="">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/testmonials/person_2.jpg" alt="">
+                            <div class="tesmonials-text">
+                                <h4>jean doe</h4>
+                                <p>partner at XYZ Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="testmonials-content">
+                        <blockquote cite="">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/testmonials/person_3.jpg" alt="">
+                            <div class="tesmonials-text">
+                                <h4>jessica smith</h4>
+                                <p>partner at XYZ Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="testmonials-content">
+                        <blockquote cite="">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/testmonials/person_4.jpg" alt="">
+                            <div class="tesmonials-text">
+                                <h4>ben miller</h4>
+                                <p>partner at XYZ Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolderAdditionJS" runat="server">
+    
+    <script src="js/main.js"></script>
+</asp:Content>

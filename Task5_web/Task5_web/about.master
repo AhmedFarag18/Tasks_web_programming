@@ -1,0 +1,300 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="about.master.cs" Inherits="Task5_web.about" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderHead" runat="server">
+      <meta charset="utf-8">
+    <title>About</title>
+  
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderBody" runat="server">
+    
+    <!-- start hero or header -->
+    <section class="header bg-light header-about-page">
+        <div class="head-img"></div>
+        <div class="container">
+            <div class="head-text row ">
+                <span class="text-primary s-head">about</span>
+                <h1 class="t-head">about us</h1>
+                <p class="head-desc">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                </p>
+            </div>
+        </div>
+    </section>
+    <!-- end hero or header -->
+
+
+
+    <!-- start section about us -->
+    <section class="about-us countSection">
+        <div class="container">
+
+            <div class="head mb-5">
+                <span class="text-primary s-head">about</span>
+                <h2 class="t-head mb-5">who we are</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-7 col-md-12">
+                    <div class="about-us-img mb-3">
+                        <img src="images/projects/img_1.jpg" alt="about us">
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-12">
+                    <div class="about-us-desc">
+                        <h3 class="about-desc-head mb-4">About us</h3>
+                        <p class="mb-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                        <p class="mb-5">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+
+                        <div class="row">
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="mb-3">
+                                    <div class="counter">
+                                        <span class="countup" data-goal="424">0</span>
+                                        <span class="text-black-50">Projects</span>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="counter">
+                                        <span class="countup" data-goal="390">0</span>
+                                        <span class="text-black-50">Clients</span>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-lg-6 col-sm-12">
+                                <div class="mb-3">
+                                    <div class="counter">
+                                        <span class="countup" data-goal="270">0</span>
+                                        <span class="text-black-50">Staff</span>
+                                    </div>
+                                </div>
+                                <div class="mb-3">
+                                    <div class="counter">
+                                        <span class="countup" data-goal="25">0</span>
+                                        <span class="text-black-50">Experience</span>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="btn-secondry learn-btn mt-5">
+                                <a href="#" class="text-primary mb-3">Learn more
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end section about us -->
+
+
+
+    <!-- start team  -->
+    <section class="team">
+        <div class="container">
+            <div class="row mb-5 items-end">
+                <div class="col-lg-3 col-md-12">
+                    <span class="text-primary s-head">team</span>
+                    <h2 class="t-head mb-2">we are the team</h2>
+                </div>
+                <div class="col-lg-3 col-md-12">
+                    <p class="mb-3 team-text">
+                        Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.
+                    </p>
+                </div>
+            </div>
+
+
+            <div class="row">
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="person">
+                        <img src="images/staff/1.jpg" class="img-fluid" alt="team1">
+                        <h3 class="mb-2">Jayson Campbell</h3>
+                        <span class="mb-3">CEO, Partner</span>
+                        <p class="mb-3">Far far away, behind the word mountains, far <br>from the countries Vokalia and Consonantia, <br> there live the blind texts.</p>
+                        <ul class="social-2 list-unstyled mb-5">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="person">
+                        <img src="images/staff/2.jpg" class="img-fluid" alt="team1">
+                        <h3 class="mb-2">Jayson Campbell</h3>
+                        <span class="mb-3">CEO, Partner</span>
+                        <p class="mb-3">Far far away, behind the word mountains, far <br>from the countries Vokalia and Consonantia, <br> there live the blind texts.</p>
+                        <ul class="social-2 list-unstyled mb-5">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="person">
+                        <img src="images/staff/3.jpg" class="img-fluid" alt="team1"/>
+                        <h3 class="mb-2">Jayson Campbell</h3>
+                        <span class="mb-3">CEO, Partner</span>
+                        <p class="mb-3">Far far away, behind the word mountains, far <br>from the countries Vokalia and Consonantia, <br/> there live the blind texts.</p>
+                        <ul class="social-2 list-unstyled mb-5">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="person">
+                        <img src="images/staff/4.jpg" class="img-fluid" alt="team1">
+                        <h3 class="mb-2">Jayson Campbell</h3>
+                        <span class="mb-3">CEO, Partner</span>
+                        <p class="mb-3">Far far away, behind the word mountains, far <br>from the countries Vokalia and Consonantia, <br> there live the blind texts.</p>
+                        <ul class="social-2 list-unstyled mb-5">
+                            <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                            <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+                            <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
+                            <li><a href="#"><i class="fab fa-linkedin"></i></a></li>
+                        </ul>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end team -->
+
+
+    <!-- start provide services -->
+    <section class="provide">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-12">
+                    <h2 class="t-head mb-4">We Provide Best Services</h2>
+                    <p class="mb-3">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live.</p>
+                    <p class="mb-5">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.</p>
+                </div>
+
+                <div class="col-lg-6 col-md-12">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="com-content">
+                                <img src="images/serv/004-cogwheel.svg" alt="img-svg">
+                                <div class="com-content-text">
+                                    <h3 class="com-content-head ">We provide best services</h3>
+                                    <p class="com-content-desc ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <div class="btn-secondry learn-btn">
+                                        <a href="#" class="text-primary">Learn more
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-12">
+                            <div class="com-content">
+                                <img src="images/serv/002-crane.svg" alt="img-svg">
+                                <div class="com-content-text">
+                                    <h3 class="com-content-head ">We provide best services</h3>
+                                    <p class="com-content-desc ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                                    <div class="btn-secondry learn-btn">
+                                        <a href="#" class="text-primary">Learn more
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- start testmonials -->
+    <section class="testmonials bg-light">
+        <div class="container">
+            <div class="head t-center">
+                <span class="text-primary s-head">testmonials</span>
+                <h2 class="t-head mb-5">people say</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="testmonials-content">
+                        <blockquote cite="">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/testmonials/person_1.jpg" alt="">
+                            <div class="tesmonials-text">
+                                <h4>alan crew</h4>
+                                <p>partner at XYZ Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="testmonials-content">
+                        <blockquote cite="">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/testmonials/person_2.jpg" alt="">
+                            <div class="tesmonials-text">
+                                <h4>jean doe</h4>
+                                <p>partner at XYZ Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="testmonials-content">
+                        <blockquote cite="">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/testmonials/person_3.jpg" alt="">
+                            <div class="tesmonials-text">
+                                <h4>jessica smith</h4>
+                                <p>partner at XYZ Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="testmonials-content">
+                        <blockquote cite="">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/testmonials/person_4.jpg" alt="">
+                            <div class="tesmonials-text">
+                                <h4>ben miller</h4>
+                                <p>partner at XYZ Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolderAdditionJS" runat="server">
+    
+    <script src="js/main.js"></script>
+    <script src="js/about.js"></script>
+</asp:Content>

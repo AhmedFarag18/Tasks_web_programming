@@ -1,0 +1,363 @@
+﻿<%@ Master Language="C#" MasterPageFile="~/Main.Master" AutoEventWireup="true" CodeBehind="index.master.cs" Inherits="Task5_web.index" %>
+<asp:Content ID="Content1" ContentPlaceHolderID="ContentPlaceHolderHead" runat="server">
+        <meta charset="utf-8">
+    <title>Home</title>
+
+
+</asp:Content>
+<asp:Content ID="Content2" ContentPlaceHolderID="head" runat="server">
+</asp:Content>
+<asp:Content ID="Content3" ContentPlaceHolderID="ContentPlaceHolderBody" runat="server">
+    
+    <!-- start hero or header -->
+    <section class="header bg-light header-home">
+        <div class="head-img"></div>
+        <div class="container">
+            <div class="head-text row ">
+                <span class="text-primary s-head">welcome</span>
+                <h1 class="t-head">we are constructed</h1>
+                <p class="head-desc">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.
+                </p>
+                <div class="link">
+                    <a href="#" class="btn btn-primary">See our projects</a>
+                    <a href="#" class="video-icon">
+                        <i class="fas fa-play"></i>
+                        <span>Watch our video</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end hero or header -->
+
+
+    <!-- start services -->
+    <section class="services">
+        <div class="container">
+            <div class="head t-center">
+                <span class="text-primary s-head">SERVICES</span>
+                <h2 class="t-head mb-5">OUR SERVICES</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-content ltr-effect active">
+                        <img src="images/serv/001-excavator.svg" alt="img-svg">
+                        <h3 class="serv-content-head">Pre-Construction Services</h3>
+                        <p class="serv-content-desc">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="btn-secondry learn-btn">
+                            <a href="#" class="text-primary">Learn more
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-content ltr-effect">
+                        <img src="images/serv/002-crane.svg" alt="img-svg">
+                        <h3 class="serv-content-head">general construction</h3>
+                        <p class="serv-content-desc">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="btn-secondry learn-btn">
+                            <a href="#" class="text-primary">Learn more
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-content ltr-effect active">
+                        <img src="images/serv/003-engineer.svg" alt="img-svg">
+                        <h3 class="serv-content-head">expert engineer</h3>
+                        <p class="serv-content-desc">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="btn-secondry learn-btn">
+                            <a href="#" class="text-primary">Learn more
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-content ltr-effect ">
+                        <img src="images/serv/004-cogwheel.svg" alt="img-svg">
+                        <h3 class="serv-content-head">design build</h3>
+                        <p class="serv-content-desc">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="btn-secondry learn-btn">
+                            <a href="#" class="text-primary">Learn more
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-content ltr-effect active">
+                        <img src="images/serv/005-hook.svg" alt="img-svg">
+                        <h3 class="serv-content-head">modeling</h3>
+                        <p class="serv-content-desc">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="btn-secondry learn-btn">
+                            <a href="#" class="text-primary">Learn more
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="services-content ltr-effect">
+                        <img src="images/serv/006-clipboard.svg" alt="img-svg">
+                        <h3 class="serv-content-head">industrial</h3>
+                        <p class="serv-content-desc">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                        <div class="btn-secondry learn-btn">
+                            <a href="#" class="text-primary">Learn more
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end services -->
+
+
+    <!-- start section projects -->
+    <section class="projects">
+        <div class="container">
+            <div class="head t-center">
+                <span class="text-primary s-head">projects</span>
+                <h2 class="t-head mb-5">RECENT PROJECTS</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.html">
+                            <img src="images/projects/img_1.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project one</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.html">
+                            <img src="images/projects/img1.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project two</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.html">
+                            <img src="images/projects/img7.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project three</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.html">
+                            <img src="images/projects/img_4.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project three</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.html">
+                            <img src="images/projects/img_3.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project one</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="projects-content">
+                        <a href="projects.html">
+                            <img src="images/projects/img_6.jpg" alt="">
+                            <div class="image-desc">
+                                <h4>project two</h4>
+                                <p>construction</p>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="link">
+                    <a href="projects.html" class="btn btn-primary">See our projects</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- end projects -->
+
+
+    <!-- start testmonials -->
+    <section class="testmonials bg-light">
+        <div class="container">
+            <div class="head t-center">
+                <span class="text-primary s-head">testmonials</span>
+                <h2 class="t-head mb-5">people say</h2>
+            </div>
+            <div class="row">
+                <div class="col-lg-6 col-sm-12">
+                    <div class="testmonials-content">
+                        <blockquote cite="">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/testmonials/person_1.jpg" alt="">
+                            <div class="tesmonials-text">
+                                <h4>alan crew</h4>
+                                <p>partner at XYZ Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="testmonials-content">
+                        <blockquote cite="">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/testmonials/person_2.jpg" alt="">
+                            <div class="tesmonials-text">
+                                <h4>jean doe</h4>
+                                <p>partner at XYZ Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="testmonials-content">
+                        <blockquote cite="">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/testmonials/person_3.jpg" alt="">
+                            <div class="tesmonials-text">
+                                <h4>jessica smith</h4>
+                                <p>partner at XYZ Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-sm-12">
+                    <div class="testmonials-content">
+                        <blockquote cite="">
+                            “Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts. Separated they live in Bookmarksgrove right at the coast of the Semantics, a large language ocean.”
+                        </blockquote>
+                        <div class="author">
+                            <img src="images/testmonials/person_4.jpg" alt="">
+                            <div class="tesmonials-text">
+                                <h4>ben miller</h4>
+                                <p>partner at XYZ Co</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- start committed -->
+    <section class="committed">
+        <div class="container">
+            <div class="row mb-5 pb-5 border-bottom">
+                <div class="col-lg-4 col-md-12">
+                    <div class="head mb-5">
+                        <span class="text-primary s-head mb-3">we are committed</span>
+                        <h2 class="t-head mb-4">the road of success is always under construction</h2>
+                        <p class="head-text">A small river named Duden flows by their place and supplies it with the necessary regelialia. It is a paradisematic country, in which roasted parts of sentences fly into your mouth.</p>
+                    </div>
+                </div>
+                <div class="col-lg-7 col-md-12">
+                    <a href="#" class="com-image">
+                        <i class="fas fa-play"></i>
+                        <img src="images/projects/1.jpg" alt="">
+                    </a>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="com-content">
+                        <img src="images/serv/001-excavator.svg" alt="img-svg">
+                        <div class="com-content-text">
+                            <h3 class="com-content-head ">We provide best services</h3>
+                            <p class="com-content-desc ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <div class="btn-secondry learn-btn">
+                                <a href="#" class="text-primary">Learn more
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="com-content">
+                        <img src="images/serv/002-crane.svg" alt="img-svg">
+                        <div class="com-content-text">
+                            <h3 class="com-content-head ">We provide best services</h3>
+                            <p class="com-content-desc ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <div class="btn-secondry learn-btn">
+                                <a href="#" class="text-primary">Learn more
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-6 col-sm-12">
+                    <div class="com-content">
+                        <img src="images/serv/004-cogwheel.svg" alt="img-svg">
+                        <div class="com-content-text">
+                            <h3 class="com-content-head ">We provide best services</h3>
+                            <p class="com-content-desc ">Far far away, behind the word mountains, far from the countries Vokalia and Consonantia, there live the blind texts.</p>
+                            <div class="btn-secondry learn-btn">
+                                <a href="#" class="text-primary">Learn more
+                                <i class="fas fa-arrow-right"></i>
+                            </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+    <!-- end committed -->
+
+
+</asp:Content>
+<asp:Content ID="Content4" ContentPlaceHolderID="ContentPlaceHolderAdditionJS" runat="server">
+    
+    <!-- Start Video Popup Menu -->
+    <div class="video-popup">
+        <div class="video-popup-inner ">
+            <i class="fas fa-times video-popup-close"></i>
+            <div class="iframe-box">
+                <iframe width="560" height="615" src="index.aspx" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+        </div>
+    </div>
+    <!-- End Video Popup Menu -->
+
+
+    <script src="js/main.js"></script>
+    <script src="js/home.js"></script>
+
+</asp:Content>

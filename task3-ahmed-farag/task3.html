@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>task 3</title>
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div id="logo">
+                <a href="HomePage.html">
+                    <img src="img/logo.png" alt="site logo">
+                    <h1>
+                        Welcome to DELL website
+                    </h1>
+                </a>
+            </div>
+        </header>
+        <nav>
+            <ul>
+                <li><a href="task1.html" id="home">Home</a></li>
+                <li>
+                    <a href="#">Services</a>
+                    <ul>
+                        <li><a href="Animation.html">Animation</a></li>
+                        <li><a href="WebDesign.html">Web Design</a></li>
+                        <li><a href="#">Web Development</a></li>
+                        <li><a href="#">Hosting</a></li>
+                        <li><a href="#">Web Training</a></li>
+                    </ul>
+                </li>
+                <li><a href="task2.html">Products</a></li>
+                <li><a href="task3.html">About US</a></li>
+                <li><a href="task4.html">Contact US</a></li>
+            </ul>
+        </nav>
+
+        <div class="WebDesign">
+            <div id="div">
+                <table id="table">
+                    <tr>
+                        <td>Ser</td>
+                        <td>Customer Name</td>
+                        <td>Product</td>
+                        <td>Number of Products</td>
+
+                    </tr>
+
+                </table>
+
+            </div>
+            <div id="out">
+                <form id="form">
+                    <input type="number" id="ser">
+                    <input type="text" id="customer">
+                    <select id="select">
+                        <option disabled selected >--choose the product--</option>
+                        <option value="laptop"> laptop</option>
+                        <option value="keyboard">keyboard</option>
+                        <option value="computer">computer</option>
+                        <option value="tablet">tablet</option>
+                    </select>
+                    <input type="number" id="number">
+
+                </form>
+
+            </div>
+            <br/>
+            <button id="insert" onclick="mytable()">Insert</button>
+        </div>
+        <div class="footer">
+            <p> This is Developed By Ahmed Farag</p>
+        </div>
+    </div>
+
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>

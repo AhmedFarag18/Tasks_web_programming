@@ -1,0 +1,132 @@
+* {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 960px;
+    margin: auto;
+    background: lightgoldenrodyellow;
+    min-height: 1000px;
+}
+
+.container header {
+    background-color: aquamarine;
+    padding: 20px;
+    overflow: hidden;
+}
+
+.container header #logo a img {
+    width: 100px;
+}
+
+.container header #logo h1 {
+    float: right
+}
+
+.container nav {
+    text-align: center;
+}
+
+.container nav ul {
+    list-style-type: none;
+    background-color: cadetblue;
+    overflow: hidden;
+}
+
+.container nav ul li {
+    float: left;
+}
+
+.container nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    border-left: solid white 1px;
+    padding: 10px 60px;
+}
+
+.container nav ul ul {
+    position: absolute;
+    left: -999px;
+    padding: 0;
+    margin: 0;
+}
+
+.container nav ul li li {
+    float: none;
+    border-bottom: solid white 1px;
+    border-top: solid white 1px
+}
+
+.container nav ul li:hover ul {
+    left: auto;
+}
+
+.container nav ul li a:hover {
+    color: cadetblue;
+    background: #fff;
+}
+
+.container nav ul li #home {
+    border-left: none
+}
+
+#insert {
+    width: 60%;
+    height: 50px;
+    font-size: 35px;
+    color: white;
+    background-color: forestgreen;
+    margin-left: 20%;
+}
+
+#insert:hover {
+    border-radius: 10px
+}
+
+table {
+    padding: 7px;
+    margin-left: 2%;
+    color: white;
+    background-color: white;
+    border: 2px solid gray;
+}
+
+tr td {
+    border: 1px solid;
+    margin-left: 5px;
+    background-color: chocolate;
+    width: 220px;
+    height: 50px;
+    text-align: center;
+    font-size: 20px
+}
+
+form input,
+select {
+    margin: 5px;
+    width: 200px;
+    height: 50px;
+    display: inline;
+    text-align: center;
+    font-size: 16px;
+}
+
+#out {
+    margin-left: 4%;
+    margin-top: 10px
+}
+
+
+/*-------------------footer--------------------*/
+
+.container .footer {
+    background: aquamarine;
+    height: 50px;
+    padding: 20px;
+    text-align: center;
+    margin: 30px 0;
+}

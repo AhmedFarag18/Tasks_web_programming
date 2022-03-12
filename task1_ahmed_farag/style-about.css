@@ -1,0 +1,123 @@
+/* start global css */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", sans-serif;
+    background: #faffb1;
+}
+
+.clear {
+    clear: both;
+}
+
+
+/* start header */
+
+.head {
+    padding: 10px 0;
+    background: #087546;
+    text-align: center;
+    color: aliceblue;
+}
+
+.head h2 {
+    margin: 10px 0;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    padding: 16px;
+    text-decoration: none;
+    transition: background 0.5s ease-in-out;
+}
+
+.navbar li {
+    display: block;
+}
+
+.navbar ul {
+    list-style-type: none;
+    padding: 10px;
+    overflow: hidden;
+}
+
+.navbar li a:hover {
+    background-color: #087546;
+}
+
+.navbar {
+    background-color: #18d56c;
+    width: 300px;
+    height: 100%;
+    width: 15%;
+    float: left;
+    height: 900px;
+}
+
+.footer {
+    text-align: center;
+    padding: 30px 0;
+    background: #087546;
+    color: aliceblue;
+}
+
+.content {
+    width: 80%;
+    float: left;
+    padding: 20px 0 0 40px;
+}
+
+.image {
+    width: 50%;
+}
+
+.item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item p {
+    margin: 0 20px;
+}
+
+hr {
+    margin: 10px 0;
+}
+
+@media (max-width:767px) {
+    .services .element {
+        width: 100%;
+    }
+    .navbar {
+        background-color: #777;
+    }
+    .navbar ul {
+        list-style-type: none;
+        padding: 10px;
+        overflow: hidden;
+        display: flex;
+    }
+    .content {
+        width: 100%;
+        float: left;
+        padding: 15px 0 0 5px;
+    }
+    .navbar {
+        background-color: #777;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+.container {
+    width: 85%;
+    margin: 50px auto;
+    border: 3px solid #333;
+}
